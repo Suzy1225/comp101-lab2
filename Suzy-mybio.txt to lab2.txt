@@ -1,0 +1,14 @@
+Lab 2 question：
+You have created a GitHub repository and want to share it with your friend Bob by sending him the repository link. When Bob clicks the link in his web browser, some communication happens over the internet. Explain step by step what happens using the concepts of client and server. In your explanation, make sure to mention:
+
+• Which device acts as the client
+A: Bob's web brower, Bob's device.
+
+• Which device acts as the server
+A: GitHub’s web server.
+
+• How Bob’s browser requests the repository content
+A: The browser takes the repository link (a URL) and uses DNS to translate the GitHub domain name into an IP address. With that IP, the browser sends an HTTPS request to GitHub’s server asking for the repository page.
+
+• How the server responds and sends the content back to Bob
+A: The GitHub server receives the request, processes it, and sends back the requested content (HTML, CSS, etc.). The data travels across the Internet, and Bob’s browser displays the page.
