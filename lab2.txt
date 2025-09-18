@@ -11,4 +11,5 @@ A: GitHub’s web server.
 A: The browser takes the repository link (a URL) and uses DNS to translate the GitHub domain name into an IP address. With that IP, the browser sends an HTTPS request to GitHub’s server asking for the repository page.
 
 • How the server responds and sends the content back to Bob
-A: The GitHub server receives the request, processes it, and sends back the requested content (HTML, CSS, etc.). The data travels across the Internet, and Bob’s browser displays the page.
+A: The GitHub server receives the request, processes it, and sends back the requested content. The data travels across the Internet, and Bob’s browser displays the page.
+
